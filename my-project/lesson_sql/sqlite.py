@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('product_info.db')
+conn = sqlite3.connect('C:/Users/seanl/Desktop/Sean/my-project/lesson_sql/product_info.db')
 
 cursor = conn.cursor()
 cursor.execute('SELECT * FROM product_info')
